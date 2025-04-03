@@ -80,7 +80,7 @@ void printVirusManual(char virus, int size, char virusTracker[size][size]) { // 
         }
 
         getchar(); //Loops when the user types a character
-        system("cls"); //clear screen;
+        system("cls"); //clear screen cls for windows clear for linux
     }
 }
 
