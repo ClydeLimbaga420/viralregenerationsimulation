@@ -144,7 +144,7 @@ void printVirus(char virus, int size, char virusTracker[size][size]) { //Print V
         }
 
         sleep(2); //Loops every 1.5s
-        system("cls");
+        system("cls");//clear screen cls for windows clear for linux
     }
 }
 
